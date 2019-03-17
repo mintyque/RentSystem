@@ -3,6 +3,7 @@ package entity;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 
+@Entity
 public class User {
     @Id
     @Column(name = "USER_ID")
